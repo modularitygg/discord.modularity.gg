@@ -18,8 +18,17 @@ body {
     text-align: center;
 }
 
-.inside p {
-    position: relative;
-    margin: 166px 0 0 0;
-    font-size: 60px;
+.header h1,
+.header h3 {
+    margin: 0;
+}
+
+.products .product {
+    margin-top: 30px;
+}
+.products .product img {
+    border-radius: 8%;
+}
+.products .product img:hover {
+    filter: brightness(120%);
 }

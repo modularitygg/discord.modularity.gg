@@ -1,0 +1,182 @@
+body {
+	background-color: #313338;
+}
+
+button:hover {
+	filter: brightness(90%);
+}
+
+.invitewrapper {
+	position: fixed;
+	top: calc(50% - 254px);
+	left: calc(50% - 115px);
+
+	width: 230px;
+	height: 42px;
+
+	border-radius: 25px 25px 0 0;
+	background-color: white;
+	text-align: center;
+}
+.invitewrapper .inviteinside {
+	margin-top: 9px;
+}
+.invitewrapper .inviteinside button {
+	height: 33px;
+	width: 200px;
+
+	font-family: 'Raleway', sans-serif;
+	border: transparent;
+	border-radius: 20px 20px 0 0;
+	font-size: 13px;
+	font-weight: bolder;
+	color: #ffffff;
+	background-color: #5C6BC0;
+	cursor: pointer;
+	outline: none;
+}
+
+.wrapper {
+	position: absolute;
+	top: calc(50% - 210px);
+	left: calc(50% - 327px);
+
+	height: 420px;
+	width: 654px;
+	border-radius: 7px 7px 7px 7px;
+
+	-webkit-box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.15);
+
+	border: 2px solid white;
+}
+
+.card-img {
+	float: left;
+	width: 327px;
+	height: 420px;
+}
+
+.card-img img {
+	height: auto;
+	width: 100%;
+	border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+	float: left;
+	height: 420px;
+	width: 327px;
+	border-radius: 0 7px 10px 7px;
+	background-color: #ffffff;
+}
+
+.product-text {
+	height: 300px;
+	width: 327px;
+}
+
+.product-text h1 {
+	margin: 0 0 0 38px;
+	padding-top: 52px;
+	font-size: 25px;
+	color: #474747;
+}
+
+.product-text h1,
+.card-button p {
+	font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+	margin: 0 0 47px 38px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	letter-spacing: 0.2em;
+}
+
+.product-text p {
+	width: 260px;
+	height: 200px;
+	margin: 10px 0 0 38px;
+	font-family: 'Playfair Display', serif;
+	color: #8d8d8d;
+	line-height: 1.5em;
+	font-size: 18px;
+	font-weight: lighter;
+	overflow: hidden;
+}
+
+.product-text button.invite {
+	display: inline-block;
+	margin-left: 30px;
+	height: 40px;
+	width: 200px;
+	border: transparent;
+	border-radius: 60px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	background-color: #5C6BC0;
+	cursor: pointer;
+	outline: none;
+}
+
+.card-button {
+	height: 103px;
+	width: 327px;
+	margin-top: 17px;
+	position: relative;
+}
+
+.card-button p {
+	display: inline-block;
+	position: absolute;
+	top: -13px;
+	height: 50px;
+	font-family: 'Trocchi', serif;
+	margin: 0 0 0 38px;
+	font-size: 28px;
+	font-weight: lighter;
+	color: #474747;
+}
+
+span {
+	display: inline-block;
+	height: 50px;
+	font-family: 'Suranna', serif;
+	font-size: 34px;
+}
+
+.card-button button {
+	float: right;
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	box-sizing: border-box;
+	border: transparent;
+	border-radius: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	background-color: #5C6BC0;
+	cursor: pointer;
+	outline: none;
+}
+
+.card-button .left {
+	float: left;
+	margin-left: 38px;
+}
+.card-button .right {
+	float: right;
+	margin-right: 38px;
+}
