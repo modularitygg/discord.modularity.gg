@@ -28,8 +28,11 @@ $(document).on('click', '.card button', function(e) {
 	if (html === "NEXT") {
 		newi = i+1;
 	}
-	else {
+	else if (html === "PREV") {
 		newi = i-1;
+	}
+	else {
+		return;
 	}
 
 	setCardVisibility(cards, newi);
