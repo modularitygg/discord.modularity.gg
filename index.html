@@ -15,21 +15,46 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="inside">
-			<div class="header">
-				<h1>Modular Discord Bots</h1>
-				<h3>No bloatware, just functionality.</h3>
+		<div class="banner"></div>
+		<div class="header">
+			<div class="banner-circle"></div>
+			<div class="inside">
+				<div class="top">
+					<h1>Modular Discord Bots</h1>
+				</div>
+				<div class="bottom">
+					<p>A collection of Discord bots with a single focus. With a minimalistic theme and no unnecessary features, you get exactly what you need.</p>
+				</div>
 			</div>
-			<div class="products">
-				<div class="product">
-					<a href="/pastebot"><img src="/assets/images/pastebot/discord_card_tiny.png"></a>
+		</div>
+		<div class="cards">
+			<div class="card" style="background-image: url(/assets/images/cards/card_calc.png);">
+				<div class="content">
+					<h2 class="title">Modular Calc Bot</h2>
+					<p>Easily solve calculations within messages with an automatic response.</p>
+					<a href="/calculatorbot"><button class="left disabled">More Info</button></a>
+					<a href="https://ntms.link/getcalcbot" target=_blank><button class="right disabled">Invite</button></a>
+				</div>
+			</div>
+			<div class="card" style="background-image: url(/assets/images/cards/card_paste.png);">
+				<div class="content">
+					<h2 class="title">Modular Paste Bot</h2>
+					<p>Converts text files posted in Discord to formatted pastes, to aid in providing support.</p>
+					<a href="/pastebot"><button class="left">More Info</button></a>
+					<a href="https://ntms.link/getpastebot" target=_blank><button class="right">Invite</button></a>
+				</div>
+			</div>
+			<div class="card" style="background-image: url(/assets/images/cards/card_publish.png);">
+				<div class="content">
+					<h2 class="title">Modular Publish Bot</h2>
+					<p>Automatically publishes messages sent in announcement channels on Discord.</p>
+					<a href="/publishbot"><button class="left disabled">More Info</button></a>
+					<a href="https://ntms.link/getpublishbot" target=_blank><button class="right">Invite</button></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<p>Developed by <a href="https://natamus.com/" target=_blank>Natamus</a>, part of <a href="https://modularity.gg" target=_blank>Modularity</a>.</p>
-	</div>
 </body>
-	<script type="text/javascript" src="/assets/external/js/jquery-3.2.1.min.js"></script>
+	<script src="/assets/external/js/jquery-3.2.1.min.js"></script>
+	<script src="/assets/js/home.js"></script>
 </html>
