@@ -20,6 +20,9 @@
 	text-align: center;
 }
 .footer .insidefooter p {
+	margin: 0;
+	padding: 0;
+
 	color: #d2d3d6;
 	font-size: 14px;
 }
