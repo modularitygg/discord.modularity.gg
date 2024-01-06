@@ -1,4 +1,6 @@
 $(document).ready(function(e) {
+	checkResize();
+
 	let fullurl = window.location.href;
 	if (fullurl.includes("#")) {
 		let cardnumber = fullurl.substring(fullurl.lastIndexOf("#") + 1, fullurl.length);
@@ -10,6 +12,28 @@ $(document).ready(function(e) {
 	}
 	setCardVisibility(0);
 });
+
+$(window).on('resize', function() {
+	checkResize();
+});
+
+function checkResize() {
+	if ($(this).width() < 500) {
+		$(".invite button").html("Invite");
+	}
+	else {
+		$(".invite button").html("Invite To Server");
+	}
+
+	if ($(this).width() < 440) {
+		$(".navigation #prev").html(" < ").attr("style", "margin-left: 80px;");
+		$(".navigation #next").html(" > ");
+	}
+	else {
+		$(".navigation #prev").html("Previous").attr("style", "margin-left: 0px;");
+		$(".navigation #next").html("Next");
+	}
+}
 
 $(document).on('click', '.navigation button', function(e) {
 	let button = $(this);
